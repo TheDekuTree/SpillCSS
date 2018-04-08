@@ -8,25 +8,28 @@
 
     </head>
     <body>
+        <ul class="sidenav">
+            <h3>sidenav</h3>
+            <li><a class="active" href="">Home</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">About</a></li>
+
+        
+        </ul>
         <div class="sp-wrapper">
             <div class="sp-page">
 
-                <div style="background-color:#e8e8e8; border-radius:2px; padding:50px;">
+                <div style="background-color:#e8e8e8; border-radius:2px; padding:5vw;">
                 <h1><u>SpillCSS</u></h1>
-                <a href="https://spillcss.dekutree.org/spillcss.zip"><button class="sp-btn-good-s">Download!</button></a>
+                <a href="https://spillcss.dekutree.org/spillcss.zip"><button class="sp-btn-good-s">Download!</button></a><a href="https://github.com/TheDekuTree/SpillCSS"><button class="sp-btn-primary-s">GitHub</button></a>
                 </div>
                 <br>
                 <br>
 
-                <h2>Navigation Buttons</h2>
+                <h2>Links</h2>
                 <br>
-
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">News</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">About</a></li>
-                </ul> 
+                <a href="https://spillcss.dekutree.org">This is a SpillCSS Link!</a>
 
                 
                 <h2>Buttons</h2>
@@ -46,8 +49,7 @@
                 <button class="sp-btn-good">Good Button</button>
                 <br>
                 <h3>sp-btn-good</h3>
-                <br>
-
+                <br>    
                 <h2>Small Buttons</h2>
                 <br>
                 <button class="sp-btn-s">Normal Button Small</button>
@@ -66,8 +68,55 @@
                 <br>
                 <h3>sp-btn-good-s</h3>
                 <br>
-                
-
+                <h2>Forms</h2>
+                <br>
+                <div class="sp-container">
+                        <form action="/action_page.php">
+                          <div class="row">
+                            <div class="col-25">
+                              <label for="fname">First Name</label>
+                            </div>
+                            <div class="col-75">
+                              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-25">
+                              <label for="lname">Last Name</label>
+                            </div>
+                            <div class="col-75">
+                              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-25">
+                              <label for="country">Country</label>
+                            </div>
+                            <div class="col-75">
+                              <select id="country" name="country">
+                                <option value="australia">Australia</option>
+                                <option value="canada">Canada</option>
+                                <option value="usa">USA</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-25">
+                              <label for="subject">Subject</label>
+                            </div>
+                            <div class="col-75">
+                              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <button class="sp-form-btn" value="Submit">Submit</button>
+                          </div>
+                        </form>
+                      </div>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
             </div>
         </div>
     </body>
